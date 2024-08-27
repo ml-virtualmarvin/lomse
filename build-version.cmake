@@ -48,5 +48,5 @@ message (STATUS "  Lomse version long   = '${LOMSE_VERSION_LONG}'" )
 # define a header file to pass version information to source code
 configure_file(
     "${LOMSE_ROOT_DIR}/lomse_version.h.cmake"
-    "${CMAKE_BINARY_DIR}/lomse_version.h"
+    "${CMAKE_CURRENT_BINARY_DIR}/lomse_version.h"
 )
