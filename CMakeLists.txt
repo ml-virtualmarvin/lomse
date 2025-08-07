@@ -122,7 +122,7 @@
 #
 #-------------------------------------------------------------------------------------
 
-cmake_minimum_required(VERSION 2.8.10 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.22)
 
 #Travis complains when building with clang. What is this for?
 cmake_policy(SET CMP0042 NEW)   #MACOSX_RPATH is enabled by default 
